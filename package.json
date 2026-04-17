@@ -22,7 +22,14 @@
     "type": "git",
     "url": "https://github.com/eidos-agi/role-based-tool-control"
   },
+  "homepage": "https://github.com/eidos-agi/role-based-tool-control#readme",
+  "bugs": {
+    "url": "https://github.com/eidos-agi/role-based-tool-control/issues"
+  },
   "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
   "devDependencies": {
     "tsx": "^4.21.0",
     "typescript": "^5.8.0"
