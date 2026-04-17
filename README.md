@@ -1,5 +1,9 @@
 # Role-Based Tool Control (RBTC)
 
+[![CI](https://github.com/eidos-agi/role-based-tool-control/actions/workflows/ci.yml/badge.svg)](https://github.com/eidos-agi/role-based-tool-control/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![npm](https://img.shields.io/npm/v/@eidos-agi/rbtc)](https://www.npmjs.com/package/@eidos-agi/rbtc)
+
 ### Instead of building an AI chatbot, connect your data to AI that already exists. RBTC makes the connection secure.
 
 | | Build your own AI chat | Connect to AI with RBTC |
