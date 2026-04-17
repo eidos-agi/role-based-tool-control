@@ -1,0 +1,38 @@
+{
+  "name": "@eidos-agi/rbtc",
+  "version": "0.1.0",
+  "description": "Role-Based Tool Control for MCP servers — gate tool visibility by caller identity",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "tsc",
+    "test": "tsx tests/rbtc.test.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["mcp", "rbac", "rbtc", "tool-control", "model-context-protocol", "authorization"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eidos-agi/role-based-tool-control"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "tsx": "^4.21.0",
+    "typescript": "^5.8.0"
+  },
+  "peerDependencies": {
+    "@modelcontextprotocol/sdk": ">=1.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@modelcontextprotocol/sdk": {
+      "optional": true
+    }
+  }
+}
