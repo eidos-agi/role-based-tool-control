@@ -15,6 +15,7 @@
   "scripts": {
     "build": "tsc",
     "test": "tsx tests/rbtc.test.ts",
+    "demo": "tsx examples/minimal-demo.ts",
     "prepublishOnly": "npm run build"
   },
   "keywords": ["mcp", "rbac", "rbtc", "tool-control", "model-context-protocol", "authorization"],
